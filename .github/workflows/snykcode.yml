@@ -1,4 +1,9 @@
-# This is a basic workflow to help you get started with Actions
+name: "Snyk Code Scan"
+
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   snyk:
