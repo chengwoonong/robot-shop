@@ -15,7 +15,7 @@ RUN mvn package
 #
 # Run
 #
-FROM openjdk:8-jdk
+FROM openjdk:20-ea-12-oracle
 
 EXPOSE 8080
 
